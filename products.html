@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Product Shop</title>
+
+    <link rel="stylesheet" href="products.css">
+</head>
+<body>
+    <header>
+        <div class="logo">
+            <a href="home.html">SKinQuiz</a>
+        </div>
+
+        <nav>
+            <a href="home.html#about">about</a>
+            <a href="quiz.html">quiz</a>
+            <a href="products.html">products</a>
+        </nav>
+    </header>
+
+    <main>
+        <div class="filter">
+            <ul class="hidden-links">
+                <li><a href="javascript:void(0)" onclick="filterProducts('kering')">Kulit Kering</a></li>
+                <li><a href="javascript:void(0)" onclick="filterProducts('berminyak')">Kulit Berminyak</a></li>
+                <li><a href="javascript:void(0)" onclick="filterProducts('kombinasi')">Kulit Kombinasi</a></li>
+                <li><a href="javascript:void(0)" onclick="filterProducts('normal')">Kulit Normal</a></li>
+            </ul>
+
+        </div>
+
+        <div class="side-bar-shopping">
+            <div class="side-bar">
+                <h2>Search Bar</h2>
+                <div class="sidebar-box">
+                    <input type="text" placeholder="search"/>
+                    <button type="button"></button>
+                </div>
+                <ul class="list-products">
+                    <li><a href="">Toner</a></li>
+                    <li><a href="">Serum</a></li>
+                    <li><a href="">Moisturizer</a></li>
+                    <li><a href="">Sunscreen</a></li>
+                </ul>
+            </div>
+        </div>
+
+        <div class="main-content">
+            <section id="recom-product" class="recom-product-content">
+                <h2>Recomendation Products</h2>
+                <a href="" class="view-all-link">view all</a>
+                <div class="recom-product-card">
+                    <!--produk akan dimasukan di JS-->
+                </div>
+            </section>
+
+            <section id="other-product" class="other-product-content">
+                <h2>Other Products</h2>
+                <a href="" class="view-all-link">view all</a>
+                <div class="other-product-card">
+                </div>
+            </section>
+        </div>
+    </main>
+
+    <footer>
+        <div class="info">
+            <h2>Jaga Kulitmu <br>
+                RAWAT DENGAN BAIK</h2>
+    
+            <div class="social-links">
+                <a href="">Instagram</a>
+                <a href="">LinkedIn</a>
+                <a href="">WhatsApp</a>
+            </div>
+        </div>
+        
+        <p> by @SKin Quiz || 2024</p>
+
+    </footer>
+
+    <script src="products.js"></script>
+</body>
+</html>

@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Quiz Skin</title>
+    <link rel="stylesheet" href="quiz.css">
+</head>
+<body>
+    <div id="page-quiz" class="page active">
+        <div class="header-quiz">
+            <div id="number-quiz" class="number-quiz"></div>
+            <div id="questions-quiz" class="questions-quiz"></div>
+        </div>
+        <div id="options" class="options"></div>
+        <button id="button-next" class="button-next">Selanjutnya</button>
+    </div>
+    
+    <div id="page-result" class="page">
+        <header>
+            <div class="logo">
+                <a href="home.html">SKinQuiz</a>
+            </div>
+    
+            <nav>
+                <a href="home.html#about">about</a>
+                <a href="quiz.html">quiz</a>
+                <a href="products.html">product</a>
+            </nav>
+        </header>
+
+        <div id="result-quiz" class="result-quiz" style="display: none;"></div>
+        <button id="restart" style="display: none;" onclick="restartQuiz()">Ulangi Kuis</button>
+    </div>
+
+    <script src="quiz.js"></script>
+    
+</body>
+</html>
